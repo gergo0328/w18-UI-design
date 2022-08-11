@@ -1,0 +1,154 @@
+body {
+    background-color: #ffeedf;
+    font-family: 'Space Grotesk', sans-serif;
+
+}
+
+header{
+    position:fixed;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    z-index: 5;
+    
+    width: 100%;
+    height: 60px;
+    margin-bottom: 60px;
+    padding: 10px;
+
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    color:#145434;
+
+    border: 0;
+    border-bottom:1px;
+    border-style: solid;
+    border-color: #145434;
+    background-color: #ffeedf;
+}
+
+.container{
+    position: absolute;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 0;
+
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    gap: 60px;
+    margin: 0 auto;
+    top: 15%;
+}
+
+@media (max-width: 935px) {
+    .container{
+    display:flex;
+    flex-direction:column;
+    }
+}
+
+.beer{
+    position: relative;
+    width: 420px;
+    height: 250px;
+    padding: 40px;
+  
+    background-color: #145434;
+    color:#ffeedf
+}
+hr{
+    position: absolute;
+    /* top: 55%;
+    width: 90%;
+    height: 1px;
+    background-color: #ffeedf;*/
+}
+
+/* name */
+h1{ 
+    font-size: 36px;
+    font-weight: 400;
+}
+
+/* title */
+h5{  
+    
+    position: absolute;
+    top: 59%;
+    font-size: 18px;
+    font-weight: 400;
+    border-width: 100%;
+    border-top: 1px;
+    border-style: solid;
+    border-color: #ffeedf;
+}
+
+/* text */
+h6{  
+    position: absolute;
+    top: 69%;
+    font-size: 18px;
+    font-weight: 700;
+}
+button{
+    display: flex;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    justify-content: row;
+    align-items: center;
+
+    gap:40px;
+    margin-bottom: -20px;
+    margin-right: -20px;
+
+    width: 200px;
+    height: 50px;
+    border: 2px solid #145434;
+    background-color: #ffeedf;
+    color:#145434
+}
+button:hover{
+    background-color: #145434;
+    color:#ffeedf;
+    border: solid 1px #ffeedf;
+}
+
+p{
+    margin-left: 70px;
+    font-size: 14px;
+}
+.material-symbols-outlined{
+    font-size: 36px;
+}
+
+.circle{
+    position: absolute;
+    display:flex;
+    width: 40px;
+    height: 40px;
+
+    top: -20px;
+    left: -20px;
+
+    background-color: #ffeedf;
+    border: 2px;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: #145434;
+
+    justify-content: center;
+    align-items: center;
+
+    color:#145434;
+    font-size: 24px;
+    
+}
